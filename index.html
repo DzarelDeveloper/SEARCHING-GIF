@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
+
+    <title>GIF SEARCHING</title>
+</head>
+
+<body>
+    <header className='header'>
+    <h1 className='header__heading'>
+        <span className='header__logo'>GIPHY</span> <span>GIF SEARCHING</span>
+    </h1>
+</header>
+
+<div class="search">
+    <input type="text" class="input userinput" placeholder="Search...">
+    <button class="btn searchBtn">
+        <i class="fas fa-search"></i>
+    </button>
+</div>
+
+
+<div class="container gif-results">
+</div>
+<div id="giphy-search"></div>
+
+
+<footer className='footer'>
+    <a className='footer__link' href='https://developers.giphy.com/' aria-label='GIPHY Developers' target='_blank'>
+        <img className='footer__image' src='https://raw.githubusercontent.com/DzarelDeveloper/Img/main/giphy.png'
+            alt='Powered By GIPHY' />
+    </a>
+</footer> 
+
+    <script src="script.js"></script>
+</body>
+
+</html>
